@@ -3,7 +3,7 @@ def calculate_discount(price,discount_percent):
     final_price = price - discount
 
     if discount_percent >= 20:
-        print(f"original price: {price}, Discount: {discount_percentage} %")
+        print(f"original price: {price}, Discount: {discount_percent} %")
         print(f"Discounted price: {price - discount}")
     else:
         print(f"final price (after discount): {final_price}")
