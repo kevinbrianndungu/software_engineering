@@ -6,7 +6,7 @@ def calculate_discount(price,discount_percent):
         print(f"original price: {price}, Discount: {discount_percentage} %")
         print(f"Discounted price: {price - discount}")
     else:
-        print(f"final price 9after discount}: {final_price}")
+        print(f"final price {after discount}: {final_price}")
 
     return final_price,price
     
